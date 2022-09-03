@@ -1,13 +1,18 @@
 h2 {
-    color: teal;
-    background-color: bisque;
+    color: rgb(249, 249, 249);
+    background-color: rgb(108, 79, 160);
 }
 
 button {
-    color: magenta;
-    background-color: cyan;
+    color: rgb(255, 255, 255);
+    background-color: #172f90;
 }
 
 p {
-    color: rgb(251, 166, 9)
+    color: rgb(255, 255, 255);
+    background-color: rgb(31, 32, 74);
+}
+
+body {
+    background-color: #000;
 }
