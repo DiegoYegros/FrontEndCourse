@@ -1,6 +1,7 @@
+h1,
 h2 {
     color: rgb(249, 249, 249);
-    background-color: rgb(108, 79, 160);
+    background-color: #bde0fe;
     text-align: center;
     border-radius: 5%;
     font-weight: 400;
@@ -10,18 +11,27 @@ h2 {
 }
 
 button {
-    color: rgb(255, 255, 255);
-    background-color: #172f90;
+    text-align: center;
+    color: #cdb4db;
+    background-color: #ffc8dd;
+}
+
+#botonUno {
+    background-color: #ffc8dd;
+}
+
+section {
+    text-align: center;
 }
 
 p {
     color: rgb(255, 255, 255);
-    background-color: rgb(31, 32, 74);
+    background-color: #cdb4db;
     font-weight: bold;
 }
 
 body {
-    background-color: #000;
+    background-color: #a2d2ff;
 }
 
 a {
