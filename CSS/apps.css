@@ -10,24 +10,46 @@ h2 {
     font-family: 'Segoe UI', Futura, sans-serif;
 }
 
+h1::first-letter,
+h2::first-letter {
+    font-size: 70px;
+}
+
 button {
     text-align: center;
     color: #cdb4db;
     background-color: #ffc8dd;
 }
 
+section button:hover {
+    background-color: #ff68ff;
+}
+
+section button:active {
+    background-color: #ff28ff;
+}
+
 #botonUno {
     background-color: #ffc8dd;
 }
 
-section {
+section nth {
     text-align: center;
+
 }
 
 p {
     color: rgb(255, 255, 255);
     background-color: #cdb4db;
     font-weight: bold;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+p a:active {
+    color: rgb(64, 1, 70)
 }
 
 body {
@@ -37,4 +59,12 @@ body {
 a {
     text-decoration: none;
     line-height: 2;
+}
+
+h2+a {
+    color: black;
+}
+
+input[type="password"] {
+    color: greenyellow;
 }
