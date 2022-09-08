@@ -69,7 +69,14 @@ input[type="password"] {
     color: greenyellow;
 }
 
-h1,
 h2 {
     text-align: center;
+}
+
+#heading1 {
+    color: #000000;
+}
+
+h1 {
+    color: aquamarine !important;
 }
