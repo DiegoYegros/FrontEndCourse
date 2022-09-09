@@ -1,0 +1,44 @@
+h1 {
+    background-color: turquoise;
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+    padding: 50px;
+    margin: 100px;
+}
+
+
+span {
+    background-color: paleturquoise;
+    border: 1px solid black;
+    width: 100px;
+    padding: 50px;
+    display: inline-block;
+}
+
+div {
+    border: 5px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    margin: 1px;
+    display: inline-block;
+}
+
+section {
+    background-color: greenyellow;
+    width: 500px;
+    height: 500px;
+}
+
+#test {
+    width: 75%;
+    height: 75%;
+    background-color: brown;
+}
+
+h3 {
+    font-size: 100%;
+    border: 1px solid black;
+    line-height: 80px;
+}
