@@ -1,0 +1,53 @@
+h1 {
+    text-align: center;
+}
+
+#container {
+    background-color: bisque;
+    width: 90%;
+    height: 200px;
+    margin: 0 auto;
+    border: 5px solid blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    /* flex-wrap: wrap; */
+}
+
+#container div {
+    width: 200px;
+    height: 200px;
+    /* max-width: 500px; */
+    text-align: center;
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+
+div:nth-of-type(1) {
+    flex-grow: 1;
+    flex-shrink: 5;
+}
+
+div:nth-of-type(5) {
+    flex-grow: 1;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    border: 5px solid black;
+    height: 500px;
+    display: flex;
+}
+
+main .sidebar {
+    background-color: purple;
+    border: 2px solid white;
+    flex: 1 2 200px;
+}
+
+main .maincontent {
+    background-color: pink;
+    flex: 1 600px;
+}
