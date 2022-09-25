@@ -6,18 +6,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Forms</title>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script src="themes/default/bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="app.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
 
 <body>
     <div class="container">
         <h1 class="display-2">Forms</h1>
-        <form action="#nowhere">
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" class="form-control" id="email" placeholder="Email">
+        <form action=" #nowhere">
+            <div class="row">
+                <div class="form-group col-md-6">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Password">
+                </div>
+                <div class="form-group">
+                    <label for="address">Street Adress</label>
+                    <input type="text" placeholder="923 Los Pollos Hermanos Street" id="address" class="form-control">
+                </div>
             </div>
+            <div class="row">
+                <div class="form-group col-md-4">
+                    <label for="state">State</label>
+                    <select class="form-control" name="state" id="state">
+                        <option value="AL">Alabama</option>
+                        <option value="AK">Alaska</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="zip">Zip code</label>
+                    <input type="text" class="form-control" id="zip" placeholder="55132-22">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="city">City</label>
+                    <select class="form-control" name="city" id="city">
+                        <option value="" selected disabled hidden>Select your option</option>
+                        <option value="LA">Los Angeles</option>
+                        <option value="NY">New York</option>
+                    </select>
+                </div>
+            </div>
+            <!-- <div class="form-check">
+                <input type="checkbox" class="form-check-input" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                    Sign Me Up
+                </label>
+            </div> -->
+            <div class="form-group">
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" value="" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">
+                        This is a Custom Check
+                    </label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-success">Register</button>
         </form>
     </div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
